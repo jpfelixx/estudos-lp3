@@ -4,4 +4,4 @@ git clone - Faz o dowload de um repositório
 
 git status - Apresenta o status do repositório
 
-git add   Adiciona todos os arquivos (untracked e modified) para o próximo commit
+git add  - Adiciona todos os arquivos (untracked e modified) para o próximo commit
