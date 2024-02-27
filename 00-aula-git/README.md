@@ -4,3 +4,4 @@ ESte repositório tem como objetivo armazenar e controlar os códigos  da discip
 ## Aulas
 - Aula 00 Git e Git Hub
 - Aula 01 - Introdução ao Python
+- Aula 02 - Estuturas de Controle
