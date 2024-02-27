@@ -1,0 +1,2 @@
+git init - Inicializar um repositório
+git status
