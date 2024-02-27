@@ -1,5 +1,4 @@
 git init - Inicializar um repositório
-git status
-fgfd
-
-dfbsdkncgjfbsftg
+git clone - faz o dowload de um repositório
+git status - apresenta o status do repositório
+git add 
