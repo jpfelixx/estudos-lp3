@@ -1,3 +1,5 @@
 git init - Inicializar um repositório
 git status
 fgfd
+
+dfbsdkncgjfbsftg
