@@ -6,6 +6,10 @@ git status - Apresenta o status do repositório
 
 git add  - Adiciona todos os arquivos (untracked e modified) para o próximo commit <3<3<3<3
 
+
+--------------------------------------------------------------
+
+
 ## 1. Ao chegar no Laboratório
 
 1. Configurar o user e email do git local
@@ -22,6 +26,8 @@ git clone https://github.com/SEU-USUARIO/estudos-lp3.git
 4. Abrir no VSCode o diretório
 code estudos-lp3
 
+--------------------------------------------------------------
+
 
 ## 2. Durante a aula
 
@@ -35,6 +41,8 @@ Settings -> Developer settings -> Personal access token -> Tokens (classic) -> G
 git push
 
 Cancelar a opção de integração do VSCode, colocar o seu usuário do github e em seguida o token gerado.
+
+--------------------------------------------------------------
 
 
 ## 3. Antes de sair do Lab
