@@ -75,7 +75,7 @@ somar(10,-1)
 somar(n2=10,n1=-193)
 
 #Tuple(Tupla)
-#lista de valores que não pode ser alterada(inserir valor ou modificar)
+#lista de valores que não pode ser alterada(inserir valor ou modificar)(escolhas)
 opcoes = ("si","não", "talvez") #parênteses  indica que é tupla
 
 print(opcoes[0])
@@ -85,7 +85,8 @@ print(opcoes[0])
 habilidades = {'pyhton','java', 'c#','java'}
 print(habilidades)
 
-# 6. dict (dicionario) -> comnjunyo d evalores
+# 6. dict (dicionario) -> conjunto de chaves e valores
+#espécie de obj de uma classe
 
 #palavra -> definição
 #chave -> valor
