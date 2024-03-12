@@ -76,7 +76,7 @@ b = [1,2,3]
 print(a == b) #mesmos valores, true
 print(a is b) #false
 c = b
-print(c is b) #true, é uma espécie de ponteiro devido a declaração(c = b)  anterior
+print(c is b) #true, é uma espécie de ponteiro devido a declaração(c = b) anterior. Não tem como manipular ponteiro em python
 
 
 #Operador in, not in
