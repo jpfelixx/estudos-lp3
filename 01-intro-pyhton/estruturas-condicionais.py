@@ -80,3 +80,51 @@ dias = {
 
 if dia in dias :
     print(dias[dia])
+
+
+    #Operador ternário
+
+    idade = 20
+
+    if idade >=18:
+        status ='maior de idade'
+    else:
+        status = 'menor de idade'
+
+
+status ='Maior de idade' if idade >=18 else 'Menor de idade'
+#é utilizado apenas para mudar o valor de uma variável, se tiver mais linhas de código po recomendado é utilizar o IF
+
+#MATH CASE espécie de switch, só que mais poderoso
+#é usado para avaliar mais de uma coisa, agrupar cases
+
+dia = 3
+match dia:
+    case 1:
+        print("domingo")
+    case 2:
+        print("segunda")
+    case 3:
+        print("terça")
+    case _:
+        print("inválido") #é o 'default' do match
+
+
+#imprimir
+#1 e 7 - fim de semana
+# 2,3 4,5 e 6 -dia
+
+ #| indica que pode ser umas das opções, é uma espécie de or só que não devolve boolean
+match dia:
+    case 1 | 7:
+        print("fim de semana")
+    case 2 |3|4|5|6 :
+        print("dia útil")
+    case _:
+        print("inválido") #é o 'default' do match
+
+
+
+ 
+        
+

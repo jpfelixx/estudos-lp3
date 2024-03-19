@@ -53,4 +53,3 @@ Cancelar a opção de integração do VSCode, colocar o seu usuário do github e
 git config --global --unset user.name
 git config --global --unset user.email
 
-he
