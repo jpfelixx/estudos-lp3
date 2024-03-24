@@ -111,3 +111,5 @@ print(candidato.keys())
 print(candidato.values())
 #7 . None
 none = None # serve para quando não quiser inicializar a varíavel
+
+https://wiki.python.org.br/ListaDeExercicios
