@@ -30,7 +30,7 @@ else:
 
 
 if idade <= 12:
-    print('tu é uma kidv,ai cume terra')
+    print('tu é uma kid,vai cume terra')
 elif idade <=17:
     print('aborrecente')
 elif idade <=59:
