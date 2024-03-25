@@ -1,5 +1,4 @@
 #12/03/2024
-
 # 1. Operadores aritméticos
  # +,-,/,*,%.    **->potência
 
@@ -24,8 +23,6 @@ print(True or  False)
 
 false = False and False
 false = False or True # - retorna true
-
-
 '''
 Exemplo:
 
@@ -49,8 +46,6 @@ if( funcionario_ativo and horario_comercial)or usuerAdm:
      print('acesso liberado')
 else:
       print('acesso negado')
-
-
 
       def dentro_do_horario(hora):
             return hora>= 8 and hora<=18
@@ -78,10 +73,10 @@ print(a is b) #false
 c = b
 print(c is b) #true, é uma espécie de ponteiro devido a declaração(c = b) anterior. Não tem como manipular ponteiro em python
 
-
 #Operador in, not in
 #usado para verficar se um elemento existe em uma sequência
 opcoes =  ('sim','não','talvez')
+
 opcao = input("digite uma opcão")
 ## experiência do usuário, caso ele seja um macaco e digite um sim de maneira errônea
 opcao = opcao.lower().strip() #strip: tira os espaços
@@ -95,10 +90,8 @@ opcoes = {
 'sim' : ['sim','s','y'],
 'nao' : ['nao','n','not']
 }
-
 if opcao in opcoes:
     print('ok')
-
 else:
      print('inválido')
  
