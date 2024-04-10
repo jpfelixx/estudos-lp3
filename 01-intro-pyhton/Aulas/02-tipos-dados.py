@@ -93,7 +93,7 @@ print(habilidades)
 #key -> value
 
 nome = 'Pedro Alvarez Cabral'
-idade =59
+idade = 59
 habilidades = ['descobrir o brazil','matar indio','cume']
 empregado = 'no'
 
@@ -106,9 +106,8 @@ candidato = {
 }
 
 print(candidato)
-print(candidato['empregado'])
-print(candidato.keys())
-print(candidato.values())
+
+
 #7 . None
 none = None # serve para quando não quiser inicializar a varíavel
 

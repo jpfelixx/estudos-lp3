@@ -1,5 +1,4 @@
 
-
 def nova_saudacao(nome, saudacao):
     return f'{saudacao} {nome}'
 
