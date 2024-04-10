@@ -1,4 +1,4 @@
-# Tabuada de Um Número: Solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
+# Ex2- Tabuada de Um Número: Solicite ao usuário um número e exiba a tabuada desse número de 1 a 10.
 
 n = int(input("digite um número: "))
 
