@@ -82,7 +82,7 @@ print(opcoes[0])
 
 #set (conjuto)
 #conjunto de valores que não permite elementos duplicados. Não é indexado
-habilidades = {'pyhton','java', 'c#','java'}
+habilidades = ('pyhton','java', 'c#','java')
 print(habilidades)
 
 # 6. dict (dicionario) -> conjunto de chaves e valores
