@@ -2,7 +2,7 @@
 #palavra ou frase e verifique se é um palíndromo (ou seja, pode ser lida 
 #de frente para trás e de trás para frente da mesma forma).
 # ex: ana
-frase = input("digite uma palavra ")
+frase = input("Digite uma palavra: ")
 
 def verificador_palindromo(frase):
     f  = frase.replace(" ", "").lower()
