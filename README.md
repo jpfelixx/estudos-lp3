@@ -7,5 +7,5 @@ ESte repositório tem como objetivo armazenar e controlar os códigos  da discip
 - Aula 02 - Estuturas de Controle
 - AUla 03 - Operadores
 - Aula 04 - Estruturas Condicionais
-- Aula 05 - Estruturas de REpetição
+- Aula 05 - Estruturas de Re   petição
 - Aula 06 - Funções
