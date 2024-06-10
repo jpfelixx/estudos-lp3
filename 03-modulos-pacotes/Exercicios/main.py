@@ -3,7 +3,7 @@ from uteis.modulos2 import calculador_imc , grau , pesoideal
 peso = float(input("Digite o seu peso: "))
 altura = float(input("Digite a sua altura: "))
 
-imc = round(calculador_imc(altura,peso),2)
+imc = calculador_imc(altura,peso)
 print("O seu IMC é igual a: " , imc)
 print("De acordo com o seu imc, a classificação de seu peso é:",grau(imc))
 

@@ -17,9 +17,10 @@ IMC           Classificação
 >= 40,00        Obesidade de Classe 3
 '''
 
+
 def calculador_imc(alt, peso):
     imc = peso/pow(alt,2)
-    return imc
+    return round(imc,3)
 
 def grau(imc):
     if(imc<18.5):
@@ -38,15 +39,15 @@ def grau(imc):
 def pesoideal(imc,altura,peso):
     if(imc<18.5):
         ganhomin = 18.5 - imc
-        ganhomin = round(ganhomin*pow(altura,2),2)
+        ganhomin = round(ganhomin*pow(altura,2),3)
         ganhomax = 24.9 - imc
-        ganhomax = round(ganhomax*pow(altura,2),2)
+        ganhomax = round(ganhomax*pow(altura,2),3)
         ganhos = [ganhomin,ganhomax]
         return ganhos
     elif(imc>24.9):
         perdamin = (24.9 - imc)*-1
-        perdamin = round(perdamin*pow(altura,2),2)
+        perdamin = round(perdamin*pow(altura,2),3)
         perdamax = (18.5- imc)*-1
-        perdamax = round(perdamax*pow(altura,2),2)
+        perdamax = round(perdamax*pow(altura,2),3)
         perdas = [perdamin,perdamax]
         return perdas
