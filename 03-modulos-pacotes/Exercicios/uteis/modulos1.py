@@ -1,6 +1,4 @@
 '''
-Para cada um dos exercícios a seguir crie um arquivo ex01.py e ex02.py e resolva o exercício utilizando módulos e pacotes (se necessário). Ao final envie o link do seu repositório no GitHub nesta tarefa.
-
 Ex01. Crie um programa que recebe como entrada o comprimento, altura e a largura de um aquário e calcule as seguintes informações.
 
     O volume do aquário em litros;
