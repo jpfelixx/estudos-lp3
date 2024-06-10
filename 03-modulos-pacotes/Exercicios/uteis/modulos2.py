@@ -5,7 +5,6 @@ qual classificação o indivíduo se encaixa. Além disso, o programa deve apres
 indivíduo precisa perder ou ganhar de peso para chegar no peso normal (imc = 24,9).
 
 IMC = peso / altura * altura
-
 Classificação
 ----------------------------------
 IMC           Classificação
@@ -16,8 +15,8 @@ IMC           Classificação
 30,0 a 34,9     Obesidade de Classe 1
 35,0 a 39,9     Obesidade de Classe 2
 >= 40,00        Obesidade de Classe 3
-
 '''
+
 def calculador_imc(alt, peso):
     imc = peso/pow(alt,2)
     return imc
@@ -38,6 +37,16 @@ def grau(imc):
 
 def pesoideal(imc,altura,peso):
     if(imc<18.5):
-        return 1
-    else:
-        return 2
+        ganhomin = 18.5 - imc
+        ganhomin = round(ganhomin*pow(altura,2),2)
+        ganhomax = 24.9 - imc
+        ganhomax = round(ganhomax*pow(altura,2),2)
+        ganhos = [ganhomin,ganhomax]
+        return ganhos
+    elif(imc>24.9):
+        perdamin = (24.9 - imc)*-1
+        perdamin = round(perdamin*pow(altura,2),2)
+        perdamax = (18.5- imc)*-1
+        perdamax = round(perdamax*pow(altura,2),2)
+        perdas = [perdamin,perdamax]
+        return perdas
