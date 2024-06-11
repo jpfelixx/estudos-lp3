@@ -9,3 +9,4 @@ ESte repositório tem como objetivo armazenar e controlar os códigos  da discip
 - Aula 04 - Estruturas Condicionais
 - Aula 05 - Estruturas de Re   petição
 - Aula 06 - Funções
+- Aulça 07 -
